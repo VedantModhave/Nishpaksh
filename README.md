@@ -1,5 +1,12 @@
 # Voter ID Checker - Election Commission of India
 
+> **Nishpaksh** (निष्पक्ष - Impartial) - Open Election Voting System v1.0
+> 
+> **Documentation Version**: 1.0.0  
+> **Last Updated**: March 2026  
+> **Author**: Nishpaksh Team  
+> **Status**: Production Ready ✅
+
 A comprehensive voter ID verification system that fetches voter details from the **Election Commission of India (ECI)** APIs. Available in both Python CLI and Next.js web interface implementations.
 
 ## 🎯 Project Overview

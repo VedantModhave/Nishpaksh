@@ -1,5 +1,10 @@
 # Render Memory Optimization Guide
 
+> **Nishpaksh Technical Documentation**  
+> **Topic**: Performance Optimization  
+> **Version**: 1.0.0  
+> **Last Updated**: March 2026
+
 ## Problem
 Render free tier has **512MB RAM limit**. DeepFace with ArcFace + RetinaFace uses ~600MB, causing memory limit exceeded errors.
 

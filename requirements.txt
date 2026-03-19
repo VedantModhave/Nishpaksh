@@ -1,11 +1,33 @@
+# Nishpaksh - Python Dependencies
+# निष्पक्ष (Impartial) - Election Voting System
+#
+# Backend Requirements for Face Recognition and API Services
+#
+# Core Dependencies:
+# - FastAPI: Web framework for API endpoints
+# - OpenCV: Computer vision library for face detection
+# - PyTorch: Deep learning framework for embeddings
+# - DeepFace: Face recognition and analysis
+# - TensorFlow: ML framework
+#
+# Installation: pip install -r requirements.txt
+# Version: 1.0.0
+# Author: Nishpaksh Team
+#
+# Image Processing
 Pillow>=10.0.0
+# HTTP Requests
 requests>=2.31.0
+# Web Framework
 fastapi>=0.104.0
 uvicorn>=0.24.0
 python-multipart>=0.0.6
+# Object Detection
 ultralytics>=8.0.0
+# Computer Vision
 opencv-python>=4.8.0
 numpy>=1.24.0
+# Face Recognition Models
 facenet-pytorch>=2.5.0
 torch>=2.0.0
 torchvision>=0.15.0

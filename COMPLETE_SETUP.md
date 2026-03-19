@@ -1,5 +1,10 @@
 # Complete Voter ID Checker Setup Guide
 
+> **Nishpaksh** (निष्पक्ष - Impartial) Setup Documentation v1.0  
+> **Version**: 1.0.0  
+> **Last Updated**: March 2026  
+> **Author**: Nishpaksh Team
+
 ## 📁 Project Structure
 
 ```

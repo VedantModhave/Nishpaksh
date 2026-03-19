@@ -1,5 +1,10 @@
 # Move Ward Data GeoJSON File
 
+> **Nishpaksh Technical Documentation**  
+> **Topic**: Ward Data Integration  
+> **Version**: 1.0.0  
+> **Last Updated**: March 2026
+
 ## ✅ Action Required
 
 The `2025-ward-data (1).geojson` file is **needed** for the application - it's used for ward detection in the dashboard.

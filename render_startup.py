@@ -1,12 +1,36 @@
 """
+Nishpaksh - Render Deployment Startup Script
+
+निष्पक्ष (Impartial) - Production Deployment Configuration
+
 Startup script for Render deployment.
 
 This script sets critical environment variables BEFORE any TensorFlow/DeepFace imports
 to ensure CPU-only mode and prevent CUDA initialization errors.
 
+Deployment Environment:
+- Platform: Render (render.com)
+- Runtime: Python 3.9+
+- Memory: Optimized for free/standard tier
+- GPU: CPU-only mode (no CUDA)
+
+Critical Setup:
+- CUDA disabled for CPU-only inference
+- TensorFlow logging minimized
+- Memory allocation optimized (80% max)
+- OneDNN optimizations disabled
+
 Usage on Render:
 - Set the start command to: python render_startup.py
 - Or use: uvicorn render_startup:app --host 0.0.0.0 --port $PORT
+
+Environment Variables Configured:
+- CUDA_VISIBLE_DEVICES: -1 (disable GPU)
+- TF_CPP_MIN_LOG_LEVEL: 2 (reduce warnings)
+- TF_MEMORY_ALLOCATION: 0.8 (80% max memory)
+
+Author: Nishpaksh Team
+Version: 1.0.0
 """
 
 import os

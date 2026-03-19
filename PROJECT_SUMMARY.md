@@ -1,5 +1,11 @@
 # 📊 Project Summary: Voter ID Checker
 
+> **Nishpaksh** (निष्पक्ष - Impartial) Project Documentation  
+> **Version**: 1.0.0  
+> **Status**: Production Ready ✅  
+> **Last Updated**: March 2026  
+> **Author**: Nishpaksh Team
+
 ## ✅ What Was Delivered
 
 ### 1. Python CLI Script (`main.py`)

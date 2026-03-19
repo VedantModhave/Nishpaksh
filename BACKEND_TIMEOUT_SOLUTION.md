@@ -1,5 +1,10 @@
 # Backend Timeout Solution - Render Free Tier
 
+> **Nishpaksh Technical Documentation**  
+> **Topic**: Timeout Resolution and Performance Optimization  
+> **Version**: 1.0.0  
+> **Last Updated**: March 2026
+
 ## ✅ Fixes Applied
 
 ### 1. Increased Timeout

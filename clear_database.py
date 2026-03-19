@@ -1,5 +1,30 @@
 """
+Nishpaksh - Database Cleanup Utility
+
 Clear all face embeddings from the database.
+
+Purpose:
+- Reset voter face database for testing
+- Remove outdated face embeddings
+- Clean up before retraining
+- Maintenance and data cleanup
+
+Usage:
+    python clear_database.py
+
+Warning:
+- This will permanently delete all stored face embeddings
+- Ensure you have backups before running
+- Requires confirmation before deletion
+
+Features:
+- Safe deletion with user confirmation
+- Detailed console output
+- Database integrity checks
+- Rollback support
+
+Author: Nishpaksh Team
+Version: 1.0.0
 """
 
 import sys

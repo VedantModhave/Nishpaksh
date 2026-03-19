@@ -1,5 +1,10 @@
 # Update GitHub with Moved GeoJSON File
 
+> **Nishpaksh Technical Documentation**  
+> **Topic**: Git and Data Management  
+> **Version**: 1.0.0  
+> **Last Updated**: March 2026
+
 ## ✅ File Successfully Renamed
 
 The file has been renamed from `2025-ward-data (1).geojson` to `ward-data.geojson` in the correct location.

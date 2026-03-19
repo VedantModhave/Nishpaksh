@@ -1,5 +1,10 @@
 # Fix for Render Backend Timeout Issues
 
+> **Nishpaksh Technical Documentation**  
+> **Topic**: Deployment Optimization  
+> **Version**: 1.0.0  
+> **Last Updated**: March 2026
+
 ## 🔍 Problem Analysis
 
 The backend is timing out because:

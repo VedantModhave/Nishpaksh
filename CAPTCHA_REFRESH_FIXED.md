@@ -1,5 +1,10 @@
 # ✅ CAPTCHA Refresh - FIXED & VERIFIED
 
+> **Nishpaksh Technical Documentation**  
+> **Topic**: CAPTCHA Integration and Security  
+> **Version**: 1.0.0  
+> **Last Updated**: March 2026
+
 ## 🎯 Summary
 
 The CAPTCHA refresh functionality is now **fully connected to the Election Commission of India API** and working perfectly!
