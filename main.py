@@ -1,9 +1,20 @@
 """
+Nishpaksh - निष्पक्ष (Impartial) Voter ID Verification System
+
 Voter ID Details Fetcher - Election Commission of India
 This script uses the direct API endpoints to fetch voter details from the ECI website.
 No Selenium needed - purely API-based approach.
 
 FastAPI Backend with EPIC/CAPTCHA functionality and Face Recognition endpoints.
+
+Modules:
+- VoterIDFetcher: Handles ECI API communication
+- Face Recognition: Biometric voter verification
+- CAPTCHA Handling: Security verification integration
+
+Author: Nishpaksh Team
+Version: 1.0.0
+Last Updated: March 2026
 """
 
 import requests

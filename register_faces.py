@@ -1,4 +1,6 @@
 """
+Nishpaksh - Face Registration System
+
 One-time Face Registration Script
 
 Purpose:
@@ -13,6 +15,15 @@ Requirements:
 - Each image must contain exactly one face
 - Uses existing YOLO detector and FaceNet/ArcFace embedder
 - Skips voter_id if already exists in database
+
+Features:
+- Fraud prevention through biometric verification
+- One face per voter identification
+- Fast embedding generation
+- SQLite database storage
+
+Author: Nishpaksh Team
+Version: 1.0.0
 """
 
 import os

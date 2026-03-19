@@ -1,10 +1,25 @@
 """
-Quick sanity check for face embeddings database.
+Nishpaksh - System Sanity Check
+
+Quick sanity check for face embeddings database and system integrity.
 
 Checks:
-1. Number of registered voters
-2. Embedding lengths (should be ~1000-4000 chars for JSON string)
-3. Embedding uniqueness (should be different for each voter)
+1. Number of registered voters in database
+2. Embedding lengths validation (should be ~1000-4000 chars for JSON string)
+3. Embedding uniqueness verification (should be different for each voter)
+4. Database connectivity and schema
+5. Backend module availability
+
+Ensures system is ready for deployment and voter verification.
+
+Features:
+- Database integrity validation
+- Face embedding quality checks
+- System readiness assessment
+- Detailed diagnostic output
+
+Author: Nishpaksh Team
+Version: 1.0.0
 """
 
 import sqlite3

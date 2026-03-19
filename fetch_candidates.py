@@ -1,3 +1,20 @@
+"""
+Candidate Data Fetcher
+
+Fetches candidate information from Supabase database.
+Includes candidate details, education, active/closed cases.
+Stores data in candidates.json for voting system.
+
+Data Structure:
+- Candidate name, party, symbol
+- Education details
+- Case information (active/closed)
+- Ward/Constituency mapping
+
+Author: Nishpaksh Team
+Version: 1.0.0
+"""
+
 import requests
 import json
 

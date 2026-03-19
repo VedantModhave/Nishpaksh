@@ -1,7 +1,23 @@
 """
+Nishpaksh - Live Face Testing Module
+
 Quick test script for live face registration/verification.
 
 This script helps test the face endpoints with a live webcam capture.
+
+Features:
+- Real-time face capture from webcam
+- Face detection and embedding generation
+- Comparison with registered voters
+- Fraud detection capabilities
+
+Usage:
+- Run script to capture face
+- System matches against registered faces
+- Returns match results and confidence scores
+
+Author: Nishpaksh Team
+Version: 1.0.0
 """
 
 import cv2
