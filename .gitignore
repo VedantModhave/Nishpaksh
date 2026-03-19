@@ -1,0 +1,184 @@
+# ============================================
+# Python / FastAPI Backend
+# ============================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Python distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Database files (SQLite)
+*.db
+*.sqlite
+*.sqlite3
+face_embeddings.db
+
+# Model files (large ML models)
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+yolov8n.pt
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Registration images (may contain sensitive data)
+registration_images/
+registration_images/**/*
+
+# Temporary image files (but keep public images)
+captcha.png
+*.temp.png
+*.tmp.jpg
+
+# Keep public images
+!voter-checker/public/**/*.png
+!voter-checker/public/**/*.jpg
+!voter-checker/public/**/*.jpeg
+!voter-checker/public/**/*.webp
+!voter-checker/public/**/*.gif
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# Next.js / Frontend (voter-checker/)
+# ============================================
+
+# Dependencies
+voter-checker/node_modules/
+voter-checker/.pnp
+voter-checker/.pnp.js
+
+# Testing
+voter-checker/coverage/
+
+# Next.js
+voter-checker/.next/
+voter-checker/out/
+voter-checker/.next-env.d.ts
+
+# Production
+voter-checker/build/
+voter-checker/dist/
+
+# Debug logs
+voter-checker/npm-debug.log*
+voter-checker/yarn-debug.log*
+voter-checker/yarn-error.log*
+voter-checker/pnpm-debug.log*
+voter-checker/lerna-debug.log*
+
+# Local env files (Next.js)
+voter-checker/.env*.local
+voter-checker/.env
+
+# Vercel
+voter-checker/.vercel
+
+# TypeScript
+voter-checker/*.tsbuildinfo
+voter-checker/next-env.d.ts
+
+# ============================================
+# Hardhat / Blockchain
+# ============================================
+
+# Hardhat files
+voter-checker/cache/
+voter-checker/artifacts/
+voter-checker/cache/solidity-files-cache.json
+voter-checker/artifacts/**/*.json
+!voter-checker/artifacts/build-info/**/*.json
+
+# Hardhat cache
+voter-checker/.hardhat/
+
+# ============================================
+# General
+# ============================================
+
+# Large data files (but keep ward data for the app)
+*.geojson
+!voter-checker/public/ward-data.geojson
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compressed files (if any)
+*.zip
+*.tar.gz
+*.rar
+
+# ============================================
+# Sensitive / API Keys
+# ============================================
+
+# Private keys
+*.key
+*.pem
+*.p12
+*.pfx
+
+# API keys and secrets
+*secret*
+*private*
+*password*
+*credentials*
+
+# ============================================
+# Deployment
+# ============================================
+
+# Railway
+.railway/
+
+# Render
+.render/
+
+# PM2
+.pm2/
+
+# Docker
+.dockerignore
+Dockerfile.local

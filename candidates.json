@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dd85edc8-2be5-461e-924a-8b523b55bd76",
+    "created_at": "2026-01-07T18:16:36.498621+00:00",
+    "ward_no": 100,
+    "ward_name": null,
+    "category": null,
+    "candidate_name": "Swapna Virendra Mhatre",
+    "candidate_address": "Room No. 2, Bhagirathi Sadan, S.V. Road, Bandra (W), Mumbai-50",
+    "party_name": "Bharatiya Janata Party",
+    "symbol": "Lotus",
+    "serial_no": null,
+    "file_source": "Final Candidate List-35-37.pdf",
+    "returning_officer": null,
+    "election_year": "2025-2026",
+    "reservation_category_id": "eb609e0a-71ca-4697-bb71-812f24e273a9",
+    "is_women_reserved": true,
+    "case_info": [
+      {
+        "education": "Graduate",
+        "active_cases": 2,
+        "closed_cases": 0
+      }
+    ]
+  },
+  {
+    "id": "c244db60-ba5d-4e73-8f88-a1ecc8672f92",
+    "created_at": "2026-01-07T18:16:36.498621+00:00",
+    "ward_no": 100,
+    "ward_name": null,
+    "category": null,
+    "candidate_name": "Nida Sheikh",
+    "candidate_address": "101, Ournest, 38 De Monte Street, Bandra (W), Mumbai-400050",
+    "party_name": "Indian National Congress",
+    "symbol": "Hand",
+    "serial_no": null,
+    "file_source": "Final Candidate List-35-37.pdf",
+    "returning_officer": null,
+    "election_year": "2025-2026",
+    "reservation_category_id": "eb609e0a-71ca-4697-bb71-812f24e273a9",
+    "is_women_reserved": true,
+    "case_info": [
+      {
+        "education": "GRADUATE",
+        "active_cases": 0,
+        "closed_cases": 0
+      }
+    ]
+  },
+  {
+    "id": "79c686ca-380b-4343-b2a4-2a9848562349",
+    "created_at": "2026-01-07T18:16:36.498621+00:00",
+    "ward_no": 100,
+    "ward_name": null,
+    "category": null,
+    "candidate_name": "Usha Dashrath Kshirsagar",
+    "candidate_address": "Patel Compound Co-op Hsg Soc, SRA, 3rd Road, Khar (W), Mumbai-400052",
+    "party_name": "Independent",
+    "symbol": "Book",
+    "serial_no": null,
+    "file_source": "Final Candidate List-35-37.pdf",
+    "returning_officer": null,
+    "election_year": "2025-2026",
+    "reservation_category_id": "eb609e0a-71ca-4697-bb71-812f24e273a9",
+    "is_women_reserved": true,
+    "case_info": []
+  },
+  {
+    "id": "fe819132-b119-4207-9eae-c0043ba644f8",
+    "created_at": "2026-01-07T18:16:36.498621+00:00",
+    "ward_no": 100,
+    "ward_name": null,
+    "category": null,
+    "candidate_name": "Mrs. Sadhana Chetan Varaskar",
+    "candidate_address": "Building No. 11, Sai Sadan, De Monte Street, Bandra (W), Mumbai-400050",
+    "party_name": "Shiv Sena (Uddhav Balasaheb Thackeray)",
+    "symbol": "Flaming Torch",
+    "serial_no": null,
+    "file_source": "Final Candidate List-35-37.pdf",
+    "returning_officer": null,
+    "election_year": "2025-2026",
+    "reservation_category_id": "eb609e0a-71ca-4697-bb71-812f24e273a9",
+    "is_women_reserved": true,
+    "case_info": [
+      {
+        "education": "12",
+        "active_cases": 0,
+        "closed_cases": 0
+      }
+    ]
+  }
+]
