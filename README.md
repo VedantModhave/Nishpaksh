@@ -1,10 +1,5 @@
-> **Nishpaksh** (निष्पक्ष - Impartial) - Open Election Voting System v1.0
-> 
-> **Documentation Version**: 1.0.0  
-> **Last Updated**: March 2026  
-> **Author**: Nishpaksh Team  
-> **Status**: Production Ready ✅
-
+## Nishpaksh (निष्पक्ष - Impartial)
+ 
 A comprehensive voter ID verification and blockchain voting system that works with voter registration databases. Available in both Python CLI and Next.js web interface implementations.
 
 ### Two Implementations:
