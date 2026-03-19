@@ -1,23 +1,51 @@
 """
+Nishpaksh - DeepFace-based Face Embedding Module
+
+निष्पक्ष (Impartial) - Face Recognition and Verification
+
 DeepFace-based Face Embedding Module
 
 Replaces the previous YOLO + FaceNet/ArcFace pipeline with a simpler,
 more robust DeepFace pipeline:
 
+Core Features:
 - Uses DeepFace with VGG-Face backbone (optimized for memory-constrained environments)
 - Handles face detection, alignment, and preprocessing internally
-- We only call DeepFace.represent() to get embeddings
-- Embeddings are used with cosine similarity for verification
+- Only calls DeepFace.represent() to get embeddings
+- Embeddings used with cosine similarity for verification
+- One-voter-one-face verification policy
 
 Why DeepFace?
 - Wraps several strong face recognition models behind a simple API
 - Takes care of face detection (OpenCV), alignment, and normalization
 - Lets us stay fully local/offline once models are downloaded
+- Proven accuracy on various face verification tasks
 
-OPTIMIZED FOR RENDER FREE TIER (512MB RAM):
+Memory Optimization (RENDER FREE TIER - 512MB RAM):
 - VGG-Face: ~200MB (vs ArcFace ~400MB)
 - OpenCV detector: ~50MB (vs RetinaFace ~200MB)
 - Total memory usage: ~250MB (vs ~600MB with ArcFace+RetinaFace)
+- Efficient batch processing support
+
+Model Details:
+- Detection: OpenCV DNN
+- Alignment: Face alignment algorithms
+- Embedding: VGG-Face backend
+- Dimension: Variable (typically 512-2048D)
+- Distance Metric: Cosine Similarity
+
+Verification Workflow:
+1. Input: Two facial images (registration + verification)
+2. Detection: Extract faces from images
+3. Alignment: Normalize face orientation
+4. Embedding: Generate vector representations
+5. Comparison: Calculate cosine similarity
+6. Decision: Accept if similarity > threshold
+
+Author: Nishpaksh Team
+Version: 1.0.0
+Last Updated: March 2026
+"""
 """
 
 # Force CPU-only mode (Render free tier has no GPU)

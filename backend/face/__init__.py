@@ -1,8 +1,40 @@
 """
+Nishpaksh - Face Recognition Backend Module
+
+निष्पक्ष (Impartial) - Biometric Voter Verification System
+
 Face recognition backend: detection, embedding, and storage.
+
+Core Components:
+- FaceDetector: YOLO-based face detection in images
+- FaceEmbedder: DeepFace-based face embedding generation
+- FaceStorage: SQLite database for face embeddings
 
 This package now uses DeepFace (ArcFace + RetinaFace) for face detection
 and embedding, replacing the older YOLO + custom embedding pipeline.
+
+Key Features:
+- One-face-per-voter enforcement
+- Face embedding generation and storage
+- SQLite-based persistence
+- Fraud prevention through biometric verification
+- Memory-optimized for Render free tier (512MB RAM)
+- Lazy loading for optional dependencies
+
+Performance Optimization:
+- VGG-Face backbone: ~200MB (vs ArcFace ~400MB)
+- OpenCV detector: ~50MB (vs RetinaFace ~200MB)
+- Total: ~250MB memory usage
+
+Module Structure:
+- __init__.py: Module initialization and imports
+- detector.py: YOLO face detection
+- embedder.py: DeepFace embedding generation
+- storage.py: SQLite database management
+
+Author: Nishpaksh Team
+Version: 1.0.0
+Last Updated: March 2026
 """
 
 from .storage import FaceStorage, get_storage

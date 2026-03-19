@@ -1,11 +1,56 @@
 """
+Nishpaksh - Face Embedding Storage Module
+
+निष्पक्ष (Impartial) - Biometric Database Management
+
 Face Embedding Storage Module
 
-Stores face embeddings in SQLite database.
+Stores face embeddings in SQLite database for voter verification.
+
+Core Functionality:
 - Stores voter_id, full_name, embedding, timestamp
 - Enforces one voter_id → one embedding (unique constraint)
 - Rejects duplicate registrations
 - Serializes embeddings as JSON
+- Efficient querying and verification
+
+Database Schema:
+- voter_id: Primary key (unique identifier)
+- full_name: Voter name for reference
+- embedding: JSON-serialized face embedding
+- timestamp: Registration timestamp
+- metadata: Additional voter information
+
+Features:
+- Thread-safe SQLite operations
+- Transaction management
+- JSON serialization of embeddings
+- Fast lookup by voter_id
+- No duplicate voter registration
+- Automatic schema creation
+- Backup and restoration support
+
+Data Integrity:
+- Unique constraint on voter_id
+- NOT NULL constraints on critical fields
+- Transaction rollback on errors
+- Data validation before insertion
+
+Performance:
+- Indexed queries on voter_id
+- Batch operations support
+- Memory-efficient streaming
+- Lazy loading for large embeddings
+
+Security:
+- Local-only storage (no cloud sync)
+- File-based encryption support
+- Access control via file permissions
+- Audit logging capability
+
+Author: Nishpaksh Team
+Version: 1.0.0
+Last Updated: March 2026
 """
 
 import sqlite3

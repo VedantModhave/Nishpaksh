@@ -1,10 +1,43 @@
 """
+Nishpaksh - YOLO-based Face Detection Module
+
+निष्पक्ष (Impartial) - Voter Biometric Detection
+
 YOLO-based Face Detection Module
 
 Detects faces in images using pretrained YOLO model.
+
+Features:
 - Uses YOLOv8 for face detection
-- Rejects images with face count ≠ 1
-- Returns cropped face image
+- Rejects images with face count ≠ 1 (one-voter-one-face policy)
+- Returns cropped face image with normalized coordinates
+- Base64 encoding support for API transmission
+- Error handling for invalid images
+
+Input:
+- Base64-encoded images
+- JPEG/PNG format support
+- Variable image sizes
+
+Output:
+- Cropped face image (PIL Image)
+- Face coordinates and confidence scores
+- Single face validation
+
+Technical Details:
+- YOLOv8 model: Pre-trained on face detection
+- Confidence threshold: Configurable
+- NMS (Non-Maximum Suppression): Applied
+- Coordinate normalization: Pixel and normalized space
+
+Security:
+- One-face enforcement prevents fraud
+- Rejects multiple or no faces
+- Confidence-based validation
+
+Author: Nishpaksh Team
+Version: 1.0.0
+Last Updated: March 2026
 """
 
 import base64
